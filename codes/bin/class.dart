@@ -20,7 +20,7 @@ class MyData{
     print('Name:$name');
   }
   Hight(){
-   double hight = 4.6; //Local variables
+   double hight = 4.7; //Local variables
 
     print('Hight:$hight');
 
