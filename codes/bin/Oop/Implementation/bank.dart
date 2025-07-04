@@ -1,10 +1,8 @@
 class Bank {
 
-        diposit(int amount) {} //perent method for deposit
+        void diposit(double amount) {} 
 
-        void withdrow(int amount) {
-
-        } 
+        void withdrow(double amount) {} 
 
 
 }

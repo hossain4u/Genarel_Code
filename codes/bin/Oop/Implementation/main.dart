@@ -1,16 +1,14 @@
-import 'bank.dart';
 import 'user_account.dart';
 
 
 void main(){
 
-    Bank debit = Bank();
+  UserAccount acc =UserAccount();
 
-      debit.withdrow(9000);
-
-    UserAccount cradit = UserAccount();
-
-    cradit.diposit(50000);
+        acc.diposit(10000);
+        acc.diposit(10000);
+        acc.withdrow(2000);
+        acc.withdrow(1000);
 
 
 
