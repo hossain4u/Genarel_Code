@@ -14,7 +14,7 @@ class Product {
       Modale: $modale ,
       Qantity: $quentity,
       Price ${price!.toInt() * quentity!},
-      Weight: $weight 
+      Weight: ${weight== null? 0 : weight} 
         ''');
     }
 
