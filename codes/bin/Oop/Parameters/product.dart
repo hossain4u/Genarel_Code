@@ -5,7 +5,13 @@ class Product {
  double? price;
  int? weight;
 
-    Product(this.name, this.modale, this.quentity, this.price, [this.weight]);
+    Product({
+      this.modale,
+      this.price,
+      required this.name,
+      this.quentity,
+      this.weight}); 
+    //positional perameter,[] oftional perameter ,{}name perameter ,{[]}oftional name perameter
 
     void showTotal(){
 
