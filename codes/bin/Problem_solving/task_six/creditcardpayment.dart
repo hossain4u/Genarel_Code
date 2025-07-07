@@ -8,7 +8,7 @@ class CreditCardPayment extends PaymentMethods{
         double feeUsd = (inUsd*0.025);
         double fee= (amount*0.025); 
         double total =(amount) + fee;
-        print('Processing Credit Card payment of \৳$amount (+\$${feeUsd.toStringAsFixed(2)}= BDT:${fee.toStringAsFixed(2)})');
+        print('Processing Credit Card payment of \৳$amount (+\$${feeUsd.toStringAsFixed(2)} USD = :${fee.toStringAsFixed(2)} Taka)');
         print('Total Charged :${total.toStringAsFixed(2)} Taka');
       showReceipt();
 

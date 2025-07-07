@@ -8,7 +8,7 @@ import 'nogot.dart';
 //Task Title: Online Payment System
 void main (){
       List<PaymentMethods> payments =[NogotPayment(),CreditCardPayment(),BkashPayment()];
-      List<double> amounts =[5000.00,1000.00,300.00];
+      List<double> amounts =[9840.00,26500.00,1500.00];
 
           int index=0;
       for(var payment in payments){
