@@ -5,11 +5,8 @@ abstract class NotificationService{
 
     log(){
 
-      DateTime now = DateTime.now();
 
-    print('''Notification sent at $now
-    
-    ''');
+    print('Notification sent at ${DateTime.now()} \n');
     }
   
 

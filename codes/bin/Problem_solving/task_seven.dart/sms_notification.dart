@@ -1,9 +1,12 @@
 import 'notification_service.dart';
 class SMSNotification extends NotificationService{
-@override
-        sand(String message){
+  int? number;
+  SMSNotification(this.number);
 
-          print('Sending SMS to phone: $message');
+        @override
+          sand(String message){
+
+          print('Sending SMS to phone:($number) $message');
           log();
 
   }
