@@ -12,7 +12,7 @@ class BkashPayment extends PaymentMethods{
           fee +=10;
         }
         double total =amount+fee;
-        print('Processing Bkash payment of $amount (+\৳ ${fee.toStringAsFixed(2)} fee)');
+        print('Processing Bkash payment of $amount (+৳ ${fee.toStringAsFixed(2)} fee)');
         print('Total Charged :${total.toStringAsFixed(2)} taka');
         showReceipt();
 }

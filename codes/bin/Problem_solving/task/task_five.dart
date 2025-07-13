@@ -85,7 +85,7 @@ void main(){
       countF++;
     }
 
-  };
+  }
 
   print('--- Grade Summary ---');
   print('A+ : $countAplus');

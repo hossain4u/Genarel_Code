@@ -19,7 +19,7 @@ WhatsappNotification('Keramot Ali')
         'Welcome to our service!',
         'Your OTP is ${5678.toInt()}',
         'You have a new message!',
-        'Reactn on your Profile photos',
+        'Reactn on your photos',
         'ki khobor bondu'
         ];
 
