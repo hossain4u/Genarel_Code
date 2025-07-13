@@ -46,9 +46,9 @@ void main (){
       //For each loop
 
 
-        name.forEach((nameOne){
+        for (var nameOne in name) {
           print('Name: ${nameOne.toUpperCase()}');
-        });
+        }
 
 
       print('.......................');
@@ -57,9 +57,9 @@ void main (){
           print('$friendsName is $friendsAge yours old');
       });
 
-      name.forEach((capName){
+      for (var capName in name) {
         String capitalName = capName[0].toUpperCase() + capName.substring(1);
         print(capitalName);
-      });
+      }
 
 }

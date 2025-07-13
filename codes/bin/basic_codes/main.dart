@@ -115,7 +115,7 @@ List<Map<String, int>> friendsInfo = [
 
   //null oparator
 
-  String? element = null;
+  String? element;
   String Element = element ?? 'Pen';
   print(Element);
 
