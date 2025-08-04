@@ -1,6 +1,6 @@
 void main() {
   List<Map<String, dynamic>> fruits = [
-    {'name': 'Apple', 'color': 'Orange', 'price': 5.5},
+    {'name': 'Orange', 'color': 'Orange', 'price': 5.5},
     {'name': 'Banana', 'color': 'Yellow', 'price': 7.0},
     {'name': 'Grapes', 'color': 'Green', 'price': 8.0},
   ];
