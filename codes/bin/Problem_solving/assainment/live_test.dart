@@ -1,14 +1,14 @@
 void main() {
   List<Map<String, dynamic>> fruits = [
-    {'name': 'Orange', 'color': 'Red', 'price': 2.5},
-    {'name': 'Mango', 'color': 'Yellow', 'price': 1.0},
-    {'name': 'Painapple', 'color': 'Purple', 'price': 3.0},
+    {'name': 'Apple', 'color': 'Orange', 'price': 5.5},
+    {'name': 'Banana', 'color': 'Yellow', 'price': 7.0},
+    {'name': 'Grapes', 'color': 'Green', 'price': 8.0},
   ];
 
-  print('Original Fruit Details before Discount:\n');
+  print('Original Fruit Details Before Discount:\n');
   displayFruitDetails(fruits);
 
-  applyPriceDiscount(fruits, 10);
+  applyPriceDiscount(fruits,10);
 
   print('\nFruit Details After Applying 10% Discount:\n');
   displayFruitDetails(fruits);
@@ -20,6 +20,7 @@ void displayFruitDetails(List<Map<String, dynamic>> fruits) {
         'Name: ${fruit['name']}, Color: ${fruit['color']}, Price: \$${fruit['price'].toStringAsFixed(2)}\n');
   }
 }
+
 
 void applyPriceDiscount(List<Map<String, dynamic>> fruits, double discountPercent) {
   for (var fruit in fruits) {
