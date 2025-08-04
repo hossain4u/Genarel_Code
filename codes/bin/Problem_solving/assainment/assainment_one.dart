@@ -3,7 +3,7 @@ abstract class Role {
   void displayRole();
 }
 
-// B. Person class implementing Role interface
+
 class Person implements Role {
   final String name;
   final int age;
@@ -11,7 +11,7 @@ class Person implements Role {
   
   Person(this.name, this.age, this.address);
   
-  // Getters
+  
   String get getName => name;
   int get getAge => age;
   String get getAddress => address;
@@ -22,7 +22,7 @@ class Person implements Role {
   }
 }
 
-// C. Student class extending Person
+
 class Student extends Person {
   final String studentID;
   final String grade;
