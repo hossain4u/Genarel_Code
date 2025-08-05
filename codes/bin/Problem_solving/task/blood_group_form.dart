@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main(){
 List <Map> allDeta = [];
-        for(int i=0; i<3; i++){
+        for(int i=0; i<2; i++){
 
           print('Enter donner name');
             String? donnerName =stdin.readLineSync();
@@ -23,10 +23,13 @@ List <Map> allDeta = [];
               print('Invalid number format!');
               return;
               }
-            
+            bool ageinfo;
+
             if(age<18){
+              ageinfo = false;
               print('You cannot donnet blood');
             }else{
+              ageinfo = true;
               print('You can donnet blood');
             }
 
@@ -46,7 +49,8 @@ List <Map> allDeta = [];
                 'Name': donnerName,
                 'Age' : donnerAge,
                 'Bloodgroup': donnarBloodGroup,
-                'Phone number':donnerPhone
+                'Phone number':donnerPhone,
+                'Eligiable': ageinfo
             };
 
             allDeta.add(data);
