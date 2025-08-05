@@ -28,9 +28,8 @@ class Student extends Person {
   final String grade;
   final List<double> courseScores;
   
-  Student(String name, int age, String address,
-      this.studentID, this.grade, this.courseScores)
-      : super(name, age, address);
+  Student(super.name, super.age, super.address,
+      this.studentID, this.grade, this.courseScores);
   
   @override
   void displayRole() {
@@ -58,9 +57,8 @@ class Teacher extends Person {
   final String teacherID;
   final List<String> coursesTaught;
   
-  Teacher(String name, int age, String address,
-      this.teacherID, this.coursesTaught)
-      : super(name, age, address);
+  Teacher(super.name, super.age, super.address,
+      this.teacherID, this.coursesTaught);
   
   @override
   void displayRole() {
