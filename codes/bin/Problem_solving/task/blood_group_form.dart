@@ -50,7 +50,7 @@ List <Map> allDeta = [];
                 'Age' : donnerAge,
                 'Bloodgroup': donnarBloodGroup,
                 'Phone number':donnerPhone,
-                'Eligiable': ageinfo
+                'Eligible': ageinfo
             };
 
             allDeta.add(data);
