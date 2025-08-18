@@ -19,4 +19,4 @@ calculate(double lanth, double width,[String? location]){
 
 
 // Lamda/Arrow Funtion
- double calculateAreaLimda(double lanth, double width ,) => (lanth * width);
+  calculateAreaLimda(double lanth, double width ,) => (lanth * width);
